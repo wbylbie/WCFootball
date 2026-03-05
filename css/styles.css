@@ -1,8 +1,14 @@
-.navbar ul{
-
-	list-style-type: none;
-	background-color: gray;
-	overflow: hidden;
+.navbar ul {
+    list-style-type: none;
+    background-color: gray;
+    overflow: hidden;
+    display: flex;   /* display links in a row */
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+	width: 100%;
+	margin: 0;
+	padding: 0;
 }
 
 .navbar a{
@@ -11,13 +17,14 @@
 	text-decoration: none;
 	display: block;
 	text-align: center;
-	padding: 15px;
+	padding: 5px;
 
 }
 
 .navbar li {
 
-	float: left;
+	flex: 1;
+	/*float: left;*/
 }
 
 .navbar a:hover{
@@ -31,7 +38,7 @@ body {
 	padding: 15px;
 }
 
-footer{
+footer {
 	background-color: white;
 	padding: 15px;
 }
@@ -47,10 +54,11 @@ h1 {
 
 }
 
-.box{
+.box {
 
 	background-color: white;
-	border: solid 12px white; padding 12px;
+	border: solid 12px white; 
+	padding 12px;
 	display: flex;
 	align-items: center;
 	gap: 20px;
@@ -80,16 +88,15 @@ h1 {
   border: none;
 }
 
-
 .site-header {
-  background-image: url('../assests/images/footballfield.jpg'); /* path to your image */
-  background-size: cover;       /* makes image cover entire header */
-  background-position: center;  /* centers the image */
-  background-repeat: no-repeat; /* prevents tiling */
-  height: 200px;                /* set header height */
-  color: white;                 /* text color on top of image */
-  display: flex;                /* optional: for centering content */
-  justify-content: center;      /* center horizontally */
-  align-items: center;          /* center vertically */
-  text-align: center;           /* center text if multi-line */
+  background-image: url('../assests/images/footballfield.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  height: 200px;
+  color: white;
+	margin: 0;
+	padding: 0;
+   position: relative;
 }
