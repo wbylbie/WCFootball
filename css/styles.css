@@ -36,11 +36,11 @@ footer{
 	padding: 15px;
 }
 
-header{
+/*header{
 
 	background-color: white;
 	padding: 15px;
-}
+}*/
 h1 {
 	color: gray;
 	font-family: Cursive;
@@ -78,4 +78,18 @@ h1 {
   width: 100%;
   height: 100%;
   border: none;
+}
+
+
+.site-header {
+  background-image: url('../assests/images/footballfield.jpg'); /* path to your image */
+  background-size: cover;       /* makes image cover entire header */
+  background-position: center;  /* centers the image */
+  background-repeat: no-repeat; /* prevents tiling */
+  height: 200px;                /* set header height */
+  color: white;                 /* text color on top of image */
+  display: flex;                /* optional: for centering content */
+  justify-content: center;      /* center horizontally */
+  align-items: center;          /* center vertically */
+  text-align: center;           /* center text if multi-line */
 }
