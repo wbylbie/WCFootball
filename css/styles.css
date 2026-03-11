@@ -4,17 +4,40 @@ body, html {
 	padding: 0;
 
 }
+.titleName img{
+
+  height: 100px;
+  width 1000px;
+
+}
+
+.image h1 {
+    text-align: left;
+}
+
+
+.titlePage img{
+
+  height: 100%;
+  width: 100%;
+  max-width: 1000px;
+  max-height: 150px;
+}
 .image img {
 
     display: block;
     margin-left: auto;
     margin-right: auto;
     padding: 5px;
+    width: 100%;
+    height: 100%;
+    max-width: 1000px;
+    max-height: 1000px;
 }
 
 .navbar ul {
     list-style-type: none;
-    background-color: midnightblue;
+    background-color: #17254C;
     overflow: hidden;
     display: flex;   /* display links in a row */
     position: absolute;
@@ -54,7 +77,7 @@ body {
 }
 
 .site-footer {
-	background-color: midnightblue;
+	background-color: #17254C;
 	padding: 15px;
 	color: white;
 	width: 100%;
@@ -65,11 +88,6 @@ body {
 	background-color: white;
 	padding: 15px;
 }*/
-h1 {
-	color: midnightblue;
-	font-family: Cursive;
-
-}
 
 .box {
 
@@ -111,7 +129,7 @@ h1 {
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
-  height: 250px;
+  height: 300px;
   color: white;
   margin: 0;
   padding: 0;
