@@ -57,7 +57,7 @@ body, html {
     max-width: 1000px;
     max-height: 1000px;
 }
-
+/*
 .navbar ul {
     list-style-type: none;
     background-color: #17254C;
@@ -71,6 +71,7 @@ body, html {
 	padding: 0;
 }
 
+  
 .navbar a{
 
 	color: white;
@@ -80,17 +81,20 @@ body, html {
 	padding: 5px;
 
 }
+  
 
 .navbar li {
 
 	flex: 1;
-	/*float: left;*/
+
 }
 
 .navbar a:hover{
     background-color: hsl(0, 0%, 10%);
 
 }
+
+*/
 
 body {
 	
