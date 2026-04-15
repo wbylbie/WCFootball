@@ -1,7 +1,7 @@
 body, html {
 
 	margin: 0;
-	padding: 0;
+	/*padding: 0;*/
 
 }
 .titleName img{
@@ -25,6 +25,20 @@ body, html {
   border: none;
     display: block;
 }**/
+
+.follow-text {
+  font-size: 1.2rem;   /* makes the text bigger */
+  font-weight: 600;   
+  letter-spacing: 0.5px; 
+}
+
+.icon-x {
+  font-size: 4rem;
+  vertical-align: middle;   /* aligns it with other icons */
+  display: inline-block;    /* ensures vertical-align works */
+}
+
+
 .calendarPage iframe {
     width: 100%;
     max-width: 1000px;
@@ -99,16 +113,16 @@ body, html {
 body {
 	
 	background-color: white;
-	padding: 0px;
-	margin: 0px;
+/*	padding: 0px;
+	margin: 0px;*/
 }
 
-.site-footer {
+/*.site-footer {
 	background-color: #17254C;
 	padding: 15px;
 	color: white;
 	width: 100%;
-}
+}*/
 
 /*header{
 
